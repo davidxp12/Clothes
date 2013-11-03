@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Northwind">
+  <DataContextMoniker Name="/NorthwindDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a26a8efb-2114-40cd-bc2c-77deb141287b" absoluteBounds="0.5, 0.5, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/NorthwindDataContext/Roupa" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3d13bbcd-05c4-49bd-992b-15da01d2d775" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e5998d9e-053c-44be-b652-3ffce8bd29ad" absoluteBounds="5.5, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/NorthwindDataContext/Item" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bb859b6e-5327-44cc-9a45-5c78a70f9633" absoluteBounds="5.515, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 0.84375); (5.5 : 0.84375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NorthwindDataContext/Roupa/Roupa_Item" />
+      <nodes>
+        <classShapeMoniker Id="a26a8efb-2114-40cd-bc2c-77deb141287b" />
+        <classShapeMoniker Id="e5998d9e-053c-44be-b652-3ffce8bd29ad" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="327a446a-fe86-4b42-83fb-d8cfcd4a0733" absoluteBounds="4.625, 4.375, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/NorthwindDataContext/Marca" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c89f7fdf-c597-47cb-b4a2-8ea6b6535072" absoluteBounds="4.64, 4.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.625 : 4.97199625651042); (1.5 : 4.97199625651042); (1.5 : 3.23240397135417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NorthwindDataContext/Marca/Marca_Roupa" />
+      <nodes>
+        <classShapeMoniker Id="327a446a-fe86-4b42-83fb-d8cfcd4a0733" />
+        <classShapeMoniker Id="a26a8efb-2114-40cd-bc2c-77deb141287b" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="4a2eedcf-d2c4-4d76-9686-c673628fe472" absoluteBounds="3.375, 1, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/NorthwindDataContext/Acessorio" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c1961469-7712-4b15-a77d-df8d5f7fb969" absoluteBounds="3.3899999999999997, 1.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.375 : 1.56814697265625); (5.5 : 1.56814697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/NorthwindDataContext/Acessorio/Acessorio_Item" />
+      <nodes>
+        <classShapeMoniker Id="4a2eedcf-d2c4-4d76-9686-c673628fe472" />
+        <classShapeMoniker Id="e5998d9e-053c-44be-b652-3ffce8bd29ad" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="462537f7-0ce1-4e4a-9ddb-70c094c1021b" absoluteBounds="3.375, 3.125, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/NorthwindDataContext/Categoria" />
+      <nestedChildShapes>
+        <elementListCompartment Id="68385bc1-a6c2-4469-85f8-a4980bd8c294" absoluteBounds="3.3899999999999997, 3.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.375 : 3.8069507421875); (2.0312525 : 3.8069507421875); (2.0312525 : 3.23240397135417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NorthwindDataContext/Categoria/Categoria_Roupa" />
+      <nodes>
+        <classShapeMoniker Id="462537f7-0ce1-4e4a-9ddb-70c094c1021b" />
+        <classShapeMoniker Id="a26a8efb-2114-40cd-bc2c-77deb141287b" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

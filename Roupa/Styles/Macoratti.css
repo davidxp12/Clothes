@@ -1,0 +1,202 @@
+﻿body
+{
+    margin: 0;
+    padding-top: 0px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    font-family: "Baskerville Old Face";
+}
+h1
+{
+    background-color: #D5CDAC;
+}
+
+div, h1, h2, h3, h4, p, form, label, input, textarea, img, span
+{
+    margin: 0;
+    padding: 0;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.spacer
+{
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+}
+
+/*-------------------body_area--------------------*/
+#body_area
+{
+    width: 1004px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    font-family: Tahoma;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: bold;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none;
+    padding: 0px;
+    float: none;
+}
+#logo
+{
+    width: 170px;
+    height: 100px;
+}
+
+#left
+{
+    margin: 0px;
+    float: left;
+    width: 185px;
+    height: 500px;
+    padding-top: 4px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: #EDE8D3;
+    margin-bottom: 12px;
+}
+
+#left div.InnerText
+{
+    padding-left: 12px;
+}
+
+div.Nav
+{
+    width: 140px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #E3DCBD;
+    padding-bottom: 20px;
+}
+
+ul.Nav
+{
+    padding: 8px 0px 0 22px;
+    background-color: #E3DCBD;
+    color: #000;
+    margin: 0 0 0 2px;
+}
+
+ul.Nav li
+{
+    background: url('images/cdasp.gif') repeat-x left bottom;
+    font-size: 0;
+    line-height: 0;
+}
+
+ul.Nav li a
+{
+    background-position: inherit 6px;
+    display: block;
+    color: #787159;
+    text-decoration: none;
+    font-weight: bolder;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 17px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 8px;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: inherit;
+    background-image: url('images/arrow.gif');
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+}
+
+ul.Nav li a:hover
+{
+    color: #A73F00;
+    background-color: #EFECC8;
+}
+
+#banner
+{
+    width: 620px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: Gray;
+}
+
+#mid
+{
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 628px;
+    color: black;
+    line-height: 150%;
+    font-weight: normal;
+    font-size: 12px;
+    background-color: #E3DCBD;
+    padding-bottom: 20px;
+    margin-bottom: 12px;
+}
+
+#mid div.InnerText
+{
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 20px;
+    padding: 0;
+    color: black;
+}
+
+#mid a
+{
+    color: #A73F00;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#right
+{
+    margin: 0px;
+    float: right;
+    width: 185px;
+    padding-top: 2px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-bottom: 12px;
+}
+
+#right div.InnerText
+{
+    padding-left: 10px;
+}
+
+/*-----------------------rodapé--------------------*/
+
+#footer
+{
+    clear: both;
+    border: solid 1px black;
+}
+
+#footer div.InnerText
+{
+    padding: 10px;
+}

@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage1.master.cs" Inherits="MasterPage1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>E-Commerce - David Silva</title>
+    <link href="Styles/StyleSheet.css" rel="stylesheet" type="text/css" />    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table width="940" border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#37322F">
+	  <tr>
+		  <td valign="top">
+			<p style="float:left; height:47px;">
+			<img src="Styles/Images/tp_imghome.gif" width="129" height="12" alt="" class="flt2 tp_imghome" /><br />
+			<span class="flt1 tp_home"><a href="#" style="color:#D9A303;">Home</a> &nbsp;| &nbsp; 
+			<a href="#" style="color:#D9A303;">Search</a> &nbsp; &nbsp;
+			<%--<a href="#" style="color:#D9A303;">Sitemap</a></span>--%>
+			</p>
+			<div class="flt1 tp_backgr">
+			<a href="#" class="flt1 tp_logo"><img src="Styles/Images/dafiti.png" width="128" 
+                    alt="" /></a><br />
+			<a href="#" class="flt1 tp_home2">Home</a>
+			<a href="#" class="flt tp_home2">About us</a>
+			<a href="#" class="flt tp_home2">Learning</a>
+			<a href="#" class="flt tp_home3">Schedule</a>
+			<a href="#" class="flt tp_home3">Our Gallery</a>
+			<a href="#" class="flt tp_home3">Our Services</a>
+			<a href="#" class="flt tp_home2">History</a>
+			<a href="#" class="flt tp_home2">Contact us</a>
+			</div>
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+        <div class="flt1 ft_bg">
+			<span class="flt1 ft_txt"><a href="#" style="color:#DEDCDB; text-decoration:none;">Home</a>  |
+			<a href="#" style="color:#DEDCDB; text-decoration:none;">About us</a> |  
+			<a href="#" style="color:#DEDCDB; text-decoration:none;">Learning</a>  | 
+			<a href="#" style="color:#DEDCDB; text-decoration:none;">Schedule</a>  | 
+			<a href="#" style="color:#DEDCDB; text-decoration:none;">History</a> | 
+			<a href="#" style="color:#DEDCDB; text-decoration:none;">Gallery</a>  | 
+			<a href="#" style="color:#DEDCDB; text-decoration:none;">Our Services</a>  | 
+			<a href="#" style="color:#DEDCDB; text-decoration:none;">Contact us</a></span><br />
+			<span class="flt1 ft_txt2"><a href="http://www.buytemplates.net/Dotnet-Templates-web-templates.aspx" style="color:#000;">Dotnet template</a> from buytemplates.net 2008.All Rights Reserved.			</span><br />
+			</div>
+			 </td>
+		</tr>
+	</table>
+    </div>
+    </form>
+</body>
+</html>

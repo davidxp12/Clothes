@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Roupa" EntityNamespace="Lync" Class="NorthwindDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DAVID\SQLEXPRESS;Initial Catalog=Roupa;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="RoupaConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Roupa" Member="Roupas">
+    <Type Name="Roupa">
+      <Column Name="IdRoupa" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Nome" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="IdCategoria" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="IdCor" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="IdMaterial" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="Idtamanho" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="IdPreco" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="IdAcessorio" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="IdInformacoes" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="IdMarca" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Association Name="Roupa_Item" Member="Items" ThisKey="IdRoupa" OtherKey="IdRoupa" Type="Item" />
+      <Association Name="Marca_Roupa" Member="Marca" ThisKey="IdMarca" OtherKey="IdMarca" Type="Marca" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Acessorio" Member="Acessorios">
+    <Type Name="Acessorio">
+      <Column Name="IdAcessorio" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Nome" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Descricao" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Preco" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PrecoParcelado" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="PrecoQuantidade" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Acessorio_Item" Member="Items" ThisKey="IdAcessorio" OtherKey="IdAcessorio" Type="Item" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Item" Member="Items">
+    <Type Name="Item">
+      <Column Name="IdItem" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IdRoupa" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="IdAcessorio" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Association Name="Acessorio_Item" Member="Acessorio" ThisKey="IdAcessorio" OtherKey="IdAcessorio" Type="Acessorio" IsForeignKey="true" />
+      <Association Name="Roupa_Item" Member="Roupa" ThisKey="IdRoupa" OtherKey="IdRoupa" Type="Roupa" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Marca" Member="Marcas">
+    <Type Name="Marca">
+      <Column Name="IdMarca" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Marca" Member="Marca1" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Marca_Roupa" Member="Roupas" ThisKey="IdMarca" OtherKey="IdMarca" Type="Roupa" />
+    </Type>
+  </Table>
+</Database>

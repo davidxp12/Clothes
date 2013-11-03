@@ -1,0 +1,18 @@
+C:\Users\david.silva\Documents\Visual Studio 2010\Projects\Index\Index\bin\Index.dll
+C:\Users\david.silva\Documents\Visual Studio 2010\Projects\Index\Index\bin\Index.pdb
+C:\Users\david.silva\Documents\Visual Studio 2010\Projects\Index\Index\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\david.silva\Documents\Visual Studio 2010\Projects\Index\Index\obj\Debug\Index.dll
+C:\Users\david.silva\Documents\Visual Studio 2010\Projects\Index\Index\obj\Debug\Index.pdb
+C:\Users\david.silva\Documents\Visual Studio 2010\Projects\Roupa\Roupa\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\david.silva\Documents\Visual Studio 2010\Projects\Roupa\Roupa\bin\Roupa.dll
+C:\Users\david.silva\Documents\Visual Studio 2010\Projects\Roupa\Roupa\bin\Roupa.pdb
+C:\Users\david.silva\Documents\Visual Studio 2010\Projects\Roupa\Roupa\obj\Debug\Roupa.dll
+C:\Users\david.silva\Documents\Visual Studio 2010\Projects\Roupa\Roupa\obj\Debug\Roupa.pdb
+C:\Users\PRO\Dropbox\Veriz\Projects\Roupa\Roupa\bin\Roupa.dll
+C:\Users\PRO\Dropbox\Veriz\Projects\Roupa\Roupa\bin\Roupa.pdb
+C:\Users\PRO\Dropbox\Veriz\Projects\Roupa\Roupa\obj\Debug\Roupa.dll
+C:\Users\PRO\Dropbox\Veriz\Projects\Roupa\Roupa\obj\Debug\Roupa.pdb
+C:\Users\PRO\Documents\Visual Studio 2010\Projects\Roupa\Roupa\obj\Debug\Roupa.dll
+C:\Users\PRO\Documents\Visual Studio 2010\Projects\Roupa\Roupa\bin\Roupa.dll
+C:\Users\PRO\Documents\Visual Studio 2010\Projects\Roupa\Roupa\bin\Roupa.pdb
+C:\Users\PRO\Documents\Visual Studio 2010\Projects\Roupa\Roupa\obj\Debug\Roupa.pdb
